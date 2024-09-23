@@ -1,0 +1,23 @@
+\part{Conclusões e Trabalhos futuros}
+
+\chapter[Conclusões]{Conclusões}
+Neste capítulo serão tratado as conclusões do trabalho e trabalhos futuros para melhoria do projeto para o DNIT.
+\section{Conclusão}
+
+As eclusas com um sistema embarcado aberto apresenta um potencial para ser replicado em outros sistemas, como o de atracadouros e futuramente o controle do sistema de monitoramento das obras de arte do DNIT. Agora, a eclusa passou a depender menos de soluções caras e dispendiosas, como o problema que os gestores do órgão tinham de ter que pagar R\$ 40.000,00 para que o programador pudesse fazer o upload de um código em ladder.
+
+O próprio controlador ESP32 possui a possibilidade de ser programado em Ladder, usando o pacote de software OpenPLC. Porém, o uso com a linguagem c++ mostra-se mais prática para os servidores da casa, dado ao alto uso de ferramentas de código aberto e com alto poder de código legado e documentação. O próprio uso da linguagem Arduíno, mesmo que com suas limitações, se faz necessário para que o operador com pouca experiência possa modificar o código e fazer um upload seguro, sem problemas com preço dispendioso para o erário público. 
+
+A substituição de um supervisório pago, como o \textit{Elipse E3}, software que exige uma versão do windows antiga, para uma solução de código aberto robusto como o SCADABR que possui um suporte robusto, treinamentos periódicos, e casos de uso exitosos mostra-se exitoso para o DNIT. E atráves deste trabalho reforça a usabilidade e a manutenção do sistema. 
+
+As recomendações dada aos operadores no capítulo 5 são fundamentais para o funcionamento ótimo do sistema, e com o auxilio deste trabalho, 
+
+\section{Trabalhos Futuros}
+
+Durante a execução do projeto, novas ideias surgiram para melhor efetivação do projeto. A primeira delas é a criação de um sistema de controle proporcional, integrativo e derivativo (PID) dos motores dos poços para melhor aproveitamento dos mesmos. O mesmo vale para o controle das válvulas da elevação de embarcação, conforme equação descrita no capítulo 2. 
+
+Um segundo item é a criação de uma PCB com todos os componentes necessários para a automação de todos os itens do sistema de uma eclusa. Uma placa de circuito impresso única, em que seu reuso seja feito em outros projetos capitaneados pelo órgão.
+
+O interfaceamento das câmeras com o sistema de supervisório também é um item a ser colocado, pois o supervisório permite que câmeras sejam integradas ao sistema, dando maior confiabiliade.
+
+Novas imagens da interface do supervisório se fazem necessárias. A coordenação de TI do DNIT em conjunto com a Coordenação de comunicação podem melhorar as imagens feitas de acordo com o manual de imagem do DNIT de 2022. Com esse auxílio, se terá um supervisório visualmente melhor que o que foi mostrado neste trabalho.
